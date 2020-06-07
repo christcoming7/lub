@@ -1,0 +1,64 @@
+﻿<html>
+<title>!ALERT</title>
+<body>
+<div id="Alert" style="width: 200px; height: 200px; background-color: skyblue; border: 5px solid black;"> HELLO HOLLY  
+i have been working here for so long time 
+my place ll b take over by Hills just click change & it ll b changed</div>
+
+<button onclick="changeContent();"> CHANGE </button>
+<button onclick="show();"> Show </button>
+<button onclick="hide();"> Hide </button>
+  
+ <img src="C.jpg" style="max-width: 100%; height auto;" id="A" class="1" />
+   <br />
+<br/>
+   <button onclick="changeImage();"> Change Image </button>
+
+<button onclick="showImage();"> Show Img </button>
+
+   <button onclick="hideImage();">Hide Img</button>
+
+<script type="text/javascript">
+
+function changeImage() 
+{
+  document.getElementById("A").src ="B.jpg";
+      }
+function showImage() 
+
+{ 
+document.getElementById("A").style.display = "block"; 
+  }
+function hideImage() 
+{ 
+
+document.getElementById("A").style.display = "none"; 
+
+  }
+
+
+function show() 
+
+{ 
+document.getElementById("Alert").style.display = "block"; 
+  }
+function hide() 
+{ 
+document.getElementById("Alert").style.display = "none"; 
+  }
+
+ function changeContent() { 
+document.getElementById("Alert").style.fontSize = "20px";
+          document.getElementById("Alert").style.fontStyle = "italic";"bold";
+          document.getElementById("Alert").style.color = "navy";
+
+document.getElementById("Alert").innerHTML="HELLO HILLS im jonning instead of holly here thank you for this welcome📿";
+alert(" I WILL MAKE IT UP."); }
+
+
+
+ 
+
+</script>
+</body>
+</html>
